@@ -1,0 +1,36 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    font-family: Roboto Mono;
+    padding: 10px;
+}
+
+th {
+    width: 300px;
+}
+
+tr:nth-last-of-type(1) {
+    background: #16c03b;
+    color: white;
+}
+
+tr:nth-last-of-type(2) {
+    background: #4f4fff;
+    color: white;
+}
+
+:nth-of-type(4) {
+    background: #fea500;
+    color: white;
+}
+
+th {
+    background: white;
+    color: black;
+}
